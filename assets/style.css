@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+div.form{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font: bold 18px "Roboto", "Helvetica", sans-serif;
+}
+fieldset{
+    width: 70%;
+}
+label{
+    font-weight: initial;
+    font-size: 14px;
+}
+input{
+    font-weight: initial;
+    font-size: 14px;
+    margin: 0 20px 0 0;
+}
+textarea{
+    margin: 20px 0;
+    display: block;
+}
+input.sent{
+    position: absolute;
+    left: 75%;
+}
